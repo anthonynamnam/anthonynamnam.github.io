@@ -172,35 +172,40 @@ const skills = {
   ],
 };
 
-const degrees = {
+const ongoingDegrees = {
   degrees: [
     {
-      title: "Shantilal Shah Engineering College",
-      subtitle: "Bachelor in Information Technology",
-      logo_path: "ssec.png",
-      alt_name: "SSEC",
-      duration: "2021 - Present",
+      title: "BrainStation",
+      subtitle: "Diploma in Data Science",
+      logo_path: "brainstation.png",
+      alt_name: "BrainStation",
+      duration: "2023 Sep - Present",
       descriptions: [
-        "⚡ I'm currently pursuing my bachelors in Information Technology.",
+        "⚡ I'm currently pursuing my postgraduate diploma in Data Science at BrainStation.",
         // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "http://www.ssgec.ac.in/",
+      website_link: "https://brainstation.io/",
     },
+  ],
+};
+
+const degrees = {
+  degrees: [
     {
-      title: "Dr. S. & S. S. Ghandhy College Of Engineering & Technology",
-      subtitle: "Diploma in Information Technology",
-      logo_path: "ssgandhy.png",
-      alt_name: "SSGC",
-      duration: "2018 - 2021",
+      title: "Hong Kong University of Science and Technology",
+      subtitle: "Bachelor of Science in Data Science and Technology",
+      logo_path: "hkust.png",
+      alt_name: "HKUST",
+      duration: "2018 Sep - 2022 Jun",
       descriptions: [
         "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
         "⚡ I have secured 9.82 CGPA.",
       ],
-      website_link: "http://www.ssgc.cteguj.in/",
+      website_link: "https://hkust.edu.hk/",
     },
   ],
 };
@@ -1139,6 +1144,7 @@ export {
   greeting,
   socialMediaLinks,
   skills,
+  ongoingDegrees,
   degrees,
   certifications,
   experience,

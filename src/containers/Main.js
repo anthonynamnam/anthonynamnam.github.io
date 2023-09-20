@@ -56,7 +56,7 @@ export default function Main(propss) {
                 />
               )}
             />
-            <Route
+            {/* <Route
               path="/contact"
               render={(props) => (
                 <Contact
@@ -65,7 +65,7 @@ export default function Main(propss) {
                   setTheme={propss.setTheme}
                 />
               )}
-            />
+            /> */}
             <Route
               path="/splash"
               render={(props) => (
@@ -137,7 +137,7 @@ export default function Main(propss) {
                 />
               )}
             />
-            <Route
+            {/* <Route
               path="/contact"
               render={(props) => (
                 <Contact
@@ -146,7 +146,7 @@ export default function Main(propss) {
                   setTheme={propss.setTheme}
                 />
               )}
-            />
+            /> */}
             <Route
               path="/projects"
               render={(props) => (

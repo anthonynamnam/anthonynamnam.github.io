@@ -18,7 +18,7 @@ function SoftwareSkill(props) {
                   </Tooltip>
                 }
               >
-                <li className="software-skill-inline" name={logo.skillName}>
+                <li className="software-skill-inline" name={logo.skillName} key={logo.skillName}>
                   <span
                     className="iconify"
                     data-icon={logo.fontAwesomeClassname}

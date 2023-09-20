@@ -10,25 +10,25 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello 👋.",
-  title2: "Harikrushn",
-  logo_name: "harry.k()",
-  nickname: "harry / picleric",
-  full_name: "Harikrushn Kanani",
-  subTitle: "Backend Developer, Open Source Enthusiast 🔥. Always learning.",
+  title2: "Anthony Kwok",
+  logo_name: "anthony.k()",
+  nickname: "Anthony / Orange",
+  full_name: "Anthony Kwok",
+  subTitle: "Data Scientist & Analyst. Data Enthusiast 🔥. Non-stop learning.",
   resumeLink:
     "https://drive.google.com/file/d/1Ty0-51DZ72PE30kfJ2p1jjw9SHYCnDAi/view?usp=sharing",
-  mail: "mailto:hkanani191@gmail.com",
+  mail: "mailto:kwokanthony073@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/harikanani",
-  linkedin: "https://www.linkedin.com/in/harikrushn-kanani/",
-  gmail: "hkanani191@gmail.com",
-  gitlab: "https://gitlab.com/harikanani",
+  github: "https://github.com/anthonynamnam",
+  linkedin: "https://www.linkedin.com/in/anthonykwok073",
+  gmail: "kwokanthony073@gmail.com",
+  // gitlab: "https://gitlab.com/harikanani",
   // facebook: "https://www.facebook.com/harikrishan.kanani/",
-  twitter: "https://twitter.com/Harikrushn9",
-  instagram: "https://www.instagram.com/hari_kanani_/",
+  medium: "https://kwokanthony.medium.com/",
+  kaggle: "https://www.kaggle.com/anthonynam",
 };
 
 const skills = {

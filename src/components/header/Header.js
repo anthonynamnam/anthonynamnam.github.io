@@ -122,7 +122,7 @@ function Header(props) {
                 Projects
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink
                 className="cr"
                 to="/contact"
@@ -132,7 +132,7 @@ function Header(props) {
               >
                 Contact and Resume
               </NavLink>
-            </li>
+            </li> */}
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>

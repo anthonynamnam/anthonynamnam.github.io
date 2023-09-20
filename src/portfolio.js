@@ -223,7 +223,7 @@ const certifications = {
     },
     {
       title: "Microsoft Office Specialist World Championship",
-      subtitle: "Microsoft Excel",
+      subtitle: "3rd Runner-up in Excel",
       logo_path: "moswc.jpeg",
       certificate_link:
         "https://drive.google.com/file/d/16FIHQnDEtnvyBaY6aDn86W0pqnmtGoY8/view?usp=sharing",

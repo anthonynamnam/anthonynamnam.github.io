@@ -177,7 +177,7 @@ const ongoingDegrees = {
     {
       title: "BrainStation",
       subtitle: "Diploma in Data Science",
-      logo_path: "brainstation.png",
+      logo_path: "bs-logo.png",
       alt_name: "BrainStation",
       duration: "2023 Sep - Present",
       descriptions: [
@@ -196,14 +196,14 @@ const degrees = {
     {
       title: "Hong Kong University of Science and Technology",
       subtitle: "Bachelor of Science in Data Science and Technology",
-      logo_path: "hkust.png",
+      logo_path: "UST.png",
       alt_name: "HKUST",
       duration: "2018 Sep - 2022 Jun",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
-        "⚡ I have secured 9.82 CGPA.",
+        "⚡ To be added",
+        // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
+        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
+        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
       website_link: "https://hkust.edu.hk/",
     },
@@ -213,71 +213,33 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "M0001: MongoDB Basics",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
+      title: "Google Solution Challenge",
+      subtitle: "Top 10 Team - HKUST",
+      logo_path: "solutionchallenge.png",
       certificate_link:
-        "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#2AAFED",
-      color_code: "#47A048",
+        "https://drive.google.com/file/d/1DBgqM6-_F41e9WaknFYv8jjQhw-bpNRl/view?usp=sharing",
+      alt_name: "Google Solution Challenge",
+      color_code: "#0EFF76"
     },
     {
-      title: "Hackathon",
-      subtitle: "Hack The Mountains",
-      logo_path: "hackathon1.svg",
+      title: "Microsoft Office Specialist World Championship",
+      subtitle: "Microsoft Excel",
+      logo_path: "moswc.jpeg",
       certificate_link:
-        "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
-      color_code: "#E2405F",
+        "https://drive.google.com/file/d/16FIHQnDEtnvyBaY6aDn86W0pqnmtGoY8/view?usp=sharing",
+      alt_name: "Microsoft Office Specialist World Championship",
+      color_code: "#e7ff0e",
     },
-    {
-      title: "A300: Atlas Security",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#F6B808",
-      color_code: "#47A048",
-    },
-    {
-      title: "Cyber Security & Cyber Forensics",
-      subtitle: "Workshop at IIT Bombay",
-      logo_path: "iit.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
-      alt_name: "Workshop",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "MLH Local Hack Day: Build",
-      subtitle: "Major League Hacking",
-      logo_path: "mlh-logo.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-      alt_name: "Google",
-      color_code: "#fe0037",
-    },
-    {
-      title: "Hack20",
-      subtitle: "Flutter International Hackathon",
-      logo_path: "flutter.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-      alt_name: "Flutter International Hackathon",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Postman Student Expert",
-      subtitle: "Postman",
-      logo_path: "postman.png",
-      certificate_link:
-        "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#fffbf3",
-    },
+    // {
+    //   title: "A300: Atlas Security",
+    //   subtitle: "MongoDB University",
+    //   logo_path: "mongo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
+    //   alt_name: "MongoDB University",
+    //   // color_code: "#F6B808",
+    //   color_code: "#47A048",
+    // },
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
     // color_code: "#0C9D5899",

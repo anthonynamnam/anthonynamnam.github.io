@@ -1,7 +1,8 @@
 import React from "react";
 import "./Educations.css";
 import DegreeCard from "../../components/degreeCard/DegreeCard.js";
-import {ongoingDegrees, degrees } from "../../portfolio";
+import { degrees } from "../../portfolio";
+import { ongoingDegrees } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 function Educations(props) {

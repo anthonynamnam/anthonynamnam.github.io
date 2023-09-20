@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "479c9e8a0e42fe1875f58aa780ab6b9f",
+    "revision": "af0d11b4e6e738509b4793ea21f9e4ac",
     "url": "/index.html"
   },
   {
-    "revision": "ab6e57d42290a0ad4c47",
-    "url": "/static/css/main.9ed4a023.chunk.css"
+    "revision": "998b5c445a48a1bc8e31",
+    "url": "/static/css/main.4103b797.chunk.css"
   },
   {
-    "revision": "aff5809bb2d60bb79bed",
-    "url": "/static/js/2.831837df.chunk.js"
+    "revision": "f906f8da96644bad3fb4",
+    "url": "/static/js/2.5010fc39.chunk.js"
   },
   {
     "revision": "c21d579849576bf6a47550572ff70f62",
-    "url": "/static/js/2.831837df.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.5010fc39.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ab6e57d42290a0ad4c47",
-    "url": "/static/js/main.2447550b.chunk.js"
+    "revision": "998b5c445a48a1bc8e31",
+    "url": "/static/js/main.78806381.chunk.js"
   },
   {
     "revision": "8b906cca1f2a652d20a8",
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f2d490dc98d16b9d7939e8006d0debb7",
     "url": "/static/media/bauddhikgeeks.f2d490dc.png"
+  },
+  {
+    "revision": "f7a6d7860eb0ee3f81fc5ad20d6a77b7",
+    "url": "/static/media/bs-logo.f7a6d786.png"
   },
   {
     "revision": "a1051a228140c97862ba9a7f321c92b6",
@@ -192,6 +196,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mongo.d324ee17.png"
   },
   {
+    "revision": "3a70fb995561fd9647dd603108fcceea",
+    "url": "/static/media/moswc.3a70fb99.jpeg"
+  },
+  {
     "revision": "5dcd18d03068fbd9edeeb5003b21998a",
     "url": "/static/media/nightowls.5dcd18d0.jpg"
   },
@@ -206,6 +214,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7b7a76ef55658f6999ce00c5d55f85a5",
     "url": "/static/media/skillenza.7b7a76ef.png"
+  },
+  {
+    "revision": "7d78229844c80feee54842773c5690cb",
+    "url": "/static/media/solutionchallenge.7d782298.png"
   },
   {
     "revision": "8901092d61bfd611f75368233b1774c6",

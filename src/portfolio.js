@@ -246,7 +246,7 @@ const certifications = {
     {
       title: "HKUST Robotic Team Autonomus Racing Car Competition 2018",
       subtitle: "5th place - Pentagonal Dodecahedron",
-      logo_path: "solutionchallenge.png",
+      logo_path: "smart-car.jpeg",
       // certificate_link:
       //   "https://drive.google.com",
       alt_name: "Blockchain",

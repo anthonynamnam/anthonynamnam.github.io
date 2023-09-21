@@ -36,17 +36,17 @@ export default function Greeting(props) {
                 {greeting.subTitle}
               </p>
               <SocialMedia />
-              <div className="portfolio-repo-btn-div">
+              {/* <div className="portfolio-repo-btn-div">
                 <button
                   {...styles}
                   className="button"
                   onClick={() => {
-                    history.push("/contact");
+                    history.push("/project");
                   }}
                 >
-                  Contact Me
+                  Projects
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="greeting-image-div">

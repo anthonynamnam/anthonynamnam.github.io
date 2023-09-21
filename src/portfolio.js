@@ -182,9 +182,8 @@ const ongoingDegrees = {
       duration: "2023 Sep - Present",
       descriptions: [
         "⚡ I'm currently pursuing my postgraduate diploma in Data Science at BrainStation.",
-        // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ Content: Advanced SQL, Tableau, Python, R, Git",
+        "⚡ Capstone Project:  Under Development",
       ],
       website_link: "https://brainstation.io/",
     },
@@ -200,10 +199,12 @@ const degrees = {
       alt_name: "HKUST",
       duration: "2018 Sep - 2022 Jun",
       descriptions: [
-        "⚡ To be added",
-        // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ Received University Scholarship for Outstanding Academic Activities", 
+        "⚡ Obtained A Grade in Calculus, Applied Statistics, Regression Analysis & Capstone Project", 
+        "⚡ Capstone Project:  Personalised Algo-Trading with Machine Learing/Deep Learning Models",
+        "⚡ Machine Learning: Linear & Logistic Regression, Boosting & Treess, Clustering, Principal Component Analysis and Time-Series Forecast",
+        "⚡ Deep Learning: Convolution Neural Network, Recurrent Neural Network, Natural Language Processing, Long Short Term Memory, Transformer",
+        
       ],
       website_link: "https://hkust.edu.hk/",
     },
@@ -213,22 +214,43 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Google Solution Challenge",
-      subtitle: "Top 10 Team - HKUST",
+      title: "Google Solution Challenge 2020",
+      subtitle: "Top 10 Team - PiCare(HKUST)",
       logo_path: "solutionchallenge.png",
       certificate_link:
         "https://drive.google.com/file/d/1DBgqM6-_F41e9WaknFYv8jjQhw-bpNRl/view?usp=sharing",
       alt_name: "Google Solution Challenge",
       color_code: "#0EFF76"
     },
+
     {
-      title: "Microsoft Office Specialist World Championship",
+      title: "Microsoft Office Specialist World Championship 2015",
       subtitle: "3rd Runner-up in Excel",
       logo_path: "moswc.jpeg",
       certificate_link:
         "https://drive.google.com/file/d/16FIHQnDEtnvyBaY6aDn86W0pqnmtGoY8/view?usp=sharing",
       alt_name: "Microsoft Office Specialist World Championship",
-      color_code: "#e7ff0e",
+      color_code: "#E7FF0E",
+    },
+
+    {
+      title: "HKDAS Hackathon 2022",
+      subtitle: "Top 20 Team - TCoins",
+      logo_path: "hkdas.png",
+      // certificate_link:
+      //   "https://drive.google.com",
+      alt_name: "HKDAS Hackathon 2022",
+      color_code: "#0EFF76"
+    },
+
+    {
+      title: "HKUST Robotic Team Autonomus Racing Car Competition 2018",
+      subtitle: "5th place - Pentagonal Dodecahedron",
+      logo_path: "solutionchallenge.png",
+      // certificate_link:
+      //   "https://drive.google.com",
+      alt_name: "Blockchain",
+      color_code: "#E7FF0E"
     },
     // {
     //   title: "A300: Atlas Security",

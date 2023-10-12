@@ -53,12 +53,17 @@ function ExperienceCard(props) {
             </p>
           </div>
         </div>
-        <p
-          className="experience-card-description"
-          style={{ color: theme.text }}
-        >
-          {experience["description"]}
-        </p>
+        {experience["descriptions"].map((sentence) => {
+          return (
+            <p
+              className="experience-card-description"
+              style={{ color: theme.secondaryText }}
+            >
+              {sentence}
+            </p>
+          );
+        })}
+        
       </div>
     </div>
   );

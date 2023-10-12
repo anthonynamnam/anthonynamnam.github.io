@@ -9,15 +9,15 @@ function SoftwareSkill(props) {
         <ul className="dev-icons">
           {props.logos.map((logo) => {
             return (
-              <OverlayTrigger
-                key={logo.skillName}
-                placement={"top"}
-                overlay={
-                  <Tooltip id={`tooltip-top`}>
-                    <strong>{logo.skillName}</strong>
-                  </Tooltip>
-                }
-              >
+              // <OverlayTrigger
+              //   key={logo.skillName}
+              //   placement={"top"}
+              //   overlay={
+              //     <Tooltip id={`tooltip-top`}>
+              //       {/* <strong>{logo.skillName}</strong> */}
+              //     </Tooltip>
+              //   }
+              // >
                 <li className="software-skill-inline" name={logo.skillName} key={logo.skillName}>
                   <span
                     className="iconify"
@@ -26,7 +26,7 @@ function SoftwareSkill(props) {
                     data-inline="false"
                   ></span>
                 </li>
-              </OverlayTrigger>
+              // </OverlayTrigger>
             );
           })}
         </ul>

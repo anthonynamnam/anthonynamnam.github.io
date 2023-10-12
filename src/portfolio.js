@@ -183,7 +183,7 @@ const ongoingDegrees = {
       descriptions: [
         "⚡ I'm currently pursuing my postgraduate diploma in Data Science at BrainStation.",
         "⚡ Content: Advanced SQL, Tableau, Python, R, Git, Machine & Deep Learning, Big Data Solution",
-        "⚡ Capstone Project:  Under Development",
+        // "⚡ Capstone Project:  Under Development",
       ],
       website_link: "https://brainstation.io/",
     },
@@ -202,7 +202,7 @@ const degrees = {
         "⚡ Received University Scholarship for Outstanding Academic Activities", 
         "⚡ Obtained A Grade in Calculus, Applied Statistics, Regression Analysis & Capstone Project", 
         "⚡ Capstone Project:  Personalised Algo-Trading with Machine Learing/Deep Learning Models",
-        "⚡ Machine Learning: Linear & Logistic Regression, Boosting & Treess, Clustering, Principal Component Analysis and Time-Series Forecast",
+        "⚡ Machine Learning: Linear & Logistic Regression, Boosting & Trees, Clustering, Principal Component Analysis and Time-Series Forecast",
         "⚡ Deep Learning: Convolution Neural Network, Recurrent Neural Network, Natural Language Processing, Long Short Term Memory, Transformer",
         
       ],
@@ -214,15 +214,32 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "HKDAS Hackathon 2022",
+      subtitle: "Top 20 Team out of 400 Teams - TCoins",
+      logo_path: "hkdas.png",
+      // certificate_link:
+      //   "https://drive.google.com",
+      alt_name: "HKDAS Hackathon 2022",
+      color_code: "#0EFF76"
+    },
+    {
       title: "Google Solution Challenge 2020",
       subtitle: "Top 10 Team out of 800 Teams - PiCare(HKUST)",
       logo_path: "solutionchallenge.png",
       certificate_link:
         "https://drive.google.com/file/d/1DBgqM6-_F41e9WaknFYv8jjQhw-bpNRl/view?usp=sharing",
       alt_name: "Google Solution Challenge",
+      color_code: "#E7FF0E"
+    },
+    {
+      title: "HKUST Robotic Team Autonomus Racing Car Competition 2018",
+      subtitle: "5th place out of 12 Teams - Pentagonal Dodecahedron",
+      logo_path: "smart-car.jpeg",
+      // certificate_link:
+      //   "https://drive.google.com",
+      alt_name: "Blockchain",
       color_code: "#0EFF76"
     },
-
     {
       title: "Microsoft Office Specialist World Championship 2015",
       subtitle: "3rd Runner-up in Excel",
@@ -232,45 +249,6 @@ const certifications = {
       alt_name: "Microsoft Office Specialist World Championship",
       color_code: "#E7FF0E",
     },
-
-    {
-      title: "HKDAS Hackathon 2022",
-      subtitle: "Top 20 Team out of 400 Teams - TCoins",
-      logo_path: "hkdas.png",
-      // certificate_link:
-      //   "https://drive.google.com",
-      alt_name: "HKDAS Hackathon 2022",
-      color_code: "#0EFF76"
-    },
-
-    {
-      title: "HKUST Robotic Team Autonomus Racing Car Competition 2018",
-      subtitle: "5th place out of 12 Teams - Pentagonal Dodecahedron",
-      logo_path: "smart-car.jpeg",
-      // certificate_link:
-      //   "https://drive.google.com",
-      alt_name: "Blockchain",
-      color_code: "#E7FF0E"
-    },
-    // {
-    //   title: "A300: Atlas Security",
-    //   subtitle: "MongoDB University",
-    //   logo_path: "mongo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-    //   alt_name: "MongoDB University",
-    //   // color_code: "#F6B808",
-    //   color_code: "#47A048",
-    // },
-    // color_code: "#8C151599",
-    // color_code: "#7A7A7A",
-    // color_code: "#0C9D5899",
-    // color_code: "#C5E2EE",
-    // color_code: "#ffc475",
-    // color_code: "#g",
-    // color_code: "#ffbfae",
-    // color_code: "#fffbf3",
-    // color_code: "#b190b0",
   ],
 };
 
@@ -292,8 +270,12 @@ const experience = {
           logo_path: "kering.jpeg",
           duration: "Jul 2022 - Jul 2023",
           location: "Hong Kong",
-          description: "To be added...",
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          descriptions:[
+            "⚡ Developed sales and traffic prediction project for SAINT LAURENT, improved accuracy from 70% to 85%",
+            "⚡ Initiated data anomaly detection project with machine learning tools.",
+            "⚡ Designed and maintained 2 BI dashboards (Network Usage, Sales) with Power BI and all business requirements are met.",
+            "⚡ Collaborated with managers, data specialists, data engineers and data analysts via agile methodology & JIRA."
+          ],
           color: "#0071C5",
         },
         {
@@ -303,41 +285,52 @@ const experience = {
           logo_path: "kering.jpeg",
           duration: "Mar 2022 - Jun 2022",
           location: "Hong Kong",
-          description: "To be added...",
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          descriptions:[
+            "⚡ Developed sales and traffic prediction project for SAINT LAURENT.",
+            "⚡ Prepared both technical and non-technical documentation.",
+            "⚡ Collaborated with managers, data specialists, data engineers and data analysts via agile methodology & JIRA."
+          ],
           color: "#0071C5",
         },
         {
           title: "Data Analyst & Administrative Assistant (Part-time)",
-          company: "Hong Kong Jockey Club",
+          company: "Department of Veterinary Clinical Services, Hong Kong Jockey Club",
           company_url: "http://www.hkjc.com",
           logo_path: "HKJC_logo.png",
           duration: "Sep 2020 - Dec 2021",
           location: "Hong Kong",
-          description: "To be added...",
-          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+          descriptions:[
+            "⚡ Transformed monthly veterinary data analytics report from Excel to Tableau, saving up 70% of report preparation time.",
+            "⚡ Implemented regression and time-series prediction on drug & vaccination usage, resulting in 78% of prediction accuracy.",
+          ],
           color: "#fcf803",
         },
         {
           title: "Summer Intern (Full-time)",
-          company: "Hong Kong Jockey Club",
+          company: "Department of Veterinary Clinical Services, Hong Kong Jockey Club",
           company_url: "http://www.hkjc.com",
           logo_path: "HKJC_logo.png",
           duration: "Jun 2020 - Aug 2020",
           location: "Hong Kong",
-          description: "To be added...",
-          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+          descriptions:[
+            "⚡ Prepared user manual for in-house information management system.",
+            "⚡ Provided administrative support for veterinary management information system (VMIS).",
+            "⚡ Updated department introductory booklet."
+          ],
           color: "#fcf803",
         },
         {
           title: "Co-Founder",
-          company: "PiCare",
+          company: "PiCare (Awarding Team for Google Solution Challenge 2020)",
           company_url: "",
           logo_path: "picare.jpg",
           duration: "Nov 2019 - Aug 2020",
           location: "Hong Kong",
-          description: "To be added...",
-          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+          descriptions:[
+            "⚡ Responsible for database management and data pipeline.",
+            "⚡ Implement machine learning package for text-recognition (firebase ML-Kit.",
+            "⚡ Development on mobile application.",
+          ],
           color: "#03fc17",
         },
       ],
@@ -346,14 +339,29 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Communication Team Leader",
+          title: "Communication Team Leader (North Road Festival)",
           company: "Burnaby Business Improvament Association",
           company_url: "https://nrbia.ca/",
           logo_path: "bia.png",
           duration: "Sep 2023 - Sep 2023",
-          location: "Lougheed Town",
-          description:
-            "To be added...",
+          location: "Burnaby, Canada",
+          descriptions:[
+            "⚡ Lead other communication team members.",
+            "⚡ Faciliated the communication between different teams.",
+            "⚡ Assisted in venue set up."
+          ],
+          color: "#FBBD18",
+        },
+        {
+          title: "Participant",
+          company: "Yarrow Intergenerational Society for Justice",
+          company_url: "https://nrbia.ca/",
+          logo_path: "yarrow.png",
+          duration: "18 Jul 2023",
+          location: "Vancouver, Canada",
+          descriptions:[
+            "⚡ Faciliated in a collage workshop for elderly.",
+          ],
           color: "#FBBD18",
         },
         {
@@ -363,21 +371,13 @@ const experience = {
           logo_path: "rotaract.png",
           duration: "Jan 2019 - Jan 2020",
           location: "Hong Kong",
-          description:
-            "To be added...",
+          descriptions:[
+            "⚡ Planned and organized international service trips in Thailand and Myanmar for more than 20 university fellows.",
+            "⚡ Coordinated with oversea Rotaract Clubs and Rotary Clubs",
+            "⚡ Arranged volunteering services with various organizations such as orphanage and animal rescue organization."
+          ],
           color: "#4285F4",
         },
-        // {
-        //   title: "Campus Hustler",
-        //   company: "Skillenza",
-        //   company_url: "https://skillenza.com/",
-        //   logo_path: "skillenza.png",
-        //   duration: "Feb 2021 - Present",
-        //   location: "Work from Home",
-        //   description:
-        //     "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
-        //   color: "#196acf",
-        // },
         
       ],
     },
